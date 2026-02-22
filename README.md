@@ -10,7 +10,7 @@ A proposta é complementar abordagens tradicionais de avaliação de políticas 
 
 Analisar diferenças na configuração estrutural das características socioeconômicas entre beneficiários e não beneficiários do Bolsa Família por meio de:
 
-Construção de redes de coocorrência
+* Construção de redes de coocorrência
 
 Cálculo de métricas estruturais
 
