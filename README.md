@@ -12,11 +12,11 @@ Analisar diferenças na configuração estrutural das características socioecon
 
 * Construção de redes de coocorrência
 
-Cálculo de métricas estruturais
+* Cálculo de métricas estruturais
 
-Detecção de comunidades (Louvain)
+* Detecção de comunidades (Louvain)
 
-Visualização gráfica das redes
+* Visualização gráfica das redes
 
 O foco central é investigar se a condição de recebimento do benefício está associada a diferentes padrões de integração, fragmentação e intensidade relacional entre vulnerabilidades.
 
@@ -26,25 +26,25 @@ A Análise de Redes Sociais permite modelar variáveis socioeconômicas como nó
 
 Neste estudo:
 
-Nós → Características socioeconômicas (infraestrutura, raça, escolaridade, condição urbana, insegurança alimentar etc.)
+* Nós → Características socioeconômicas (infraestrutura, raça, escolaridade, condição urbana, insegurança alimentar etc.)
 
-Arestas → Coocorrência entre características
+* Arestas → Coocorrência entre características
 
-Peso das arestas → Intensidade da associação
+* Peso das arestas → Intensidade da associação
 
 Foram estimadas as seguintes métricas:
 
-Número de nós e arestas
+* Número de nós e arestas
 
-Densidade da rede
+* Densidade da rede
 
-Componentes conectados
+* Componentes conectados
 
-Força média (average strength)
+* Força média (average strength)
 
-Betweenness média
+* Betweenness média
 
-Modularidade (Louvain)
+* Modularidade (Louvain)
 
 📈 Principais Resultados
 🔹 Comparabilidade
@@ -55,19 +55,19 @@ Ambas as redes possuem 22 características socioeconômicas, permitindo compara�
 
 A rede dos não beneficiários apresentou:
 
-Maior densidade
+* Maior densidade
 
-Maior número de arestas
+* Maior número de arestas
 
-Estrutura totalmente conectada
+* Estrutura totalmente conectada
 
 A rede dos beneficiários apresentou:
 
-Menor densidade
+* Menor densidade
 
-Dois componentes conectados
+* Dois componentes conectados
 
-Maior dispersão estrutural
+* Maior dispersão estrutural
 
 🔹 Intensidade Relacional
 
@@ -79,25 +79,25 @@ A modularidade próxima de zero em ambas as redes indica ausência de clusters f
 
 🛠 Tecnologias Utilizadas
 
-Software: R
+* Software: R
 
-Manipulação de dados: dplyr, tidyr, Matrix
+* Manipulação de dados: dplyr, tidyr, Matrix
 
-Análise de redes: igraph, tidygraph
+* Análise de redes: igraph, tidygraph
 
-Visualização: ggraph, ggplot2
+* Visualização: ggraph, ggplot2
 
 📊 Visualizações
 
 O projeto inclui:
 
-Rede de coocorrência — Beneficiários
+* Rede de coocorrência — Beneficiários
 
-Rede de coocorrência — Não beneficiários
+* Rede de coocorrência — Não beneficiários
 
-Comunidades (Louvain) — Beneficiários
+* Comunidades (Louvain) — Beneficiários
 
-Comunidades (Louvain) — Não beneficiários
+* Comunidades (Louvain) — Não beneficiários
 
 📌 Contribuição
 
